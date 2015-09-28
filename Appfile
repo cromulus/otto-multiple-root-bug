@@ -1,0 +1,11 @@
+application {
+	name = "otto-multiple-root-bug"
+        type = "ruby"
+	dependency {
+    		source = "github.com/cromulus/otto-postgres"
+  	}
+	dependency {
+    		source = "github.com/cromulus/otto-elasticsearch"
+  	}
+
+    }
